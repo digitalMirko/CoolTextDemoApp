@@ -48,6 +48,9 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="enterTextField:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="aww-SU-qLd"/>
+                                </connections>
                             </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2TU-Hu-4SF">
                                 <rect key="frame" x="20" y="327" width="335" height="320"/>
@@ -58,26 +61,35 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lm0-uk-XgN">
                                                 <rect key="frame" x="0.0" y="0.0" width="105" height="56"/>
                                                 <color key="backgroundColor" red="0.16078431369999999" green="0.6705882353" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
                                                 <state key="normal" title="Red">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="redBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8IZ-2o-PXi"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OeB-Ly-JE1">
                                                 <rect key="frame" x="115" y="0.0" width="105" height="56"/>
                                                 <color key="backgroundColor" red="0.16078431369999999" green="0.6705882353" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
                                                 <state key="normal" title="Green">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="greenBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qKY-1d-QZs"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEs-nU-NLz">
                                                 <rect key="frame" x="230" y="0.0" width="105" height="56"/>
                                                 <color key="backgroundColor" red="0.16078431369999999" green="0.6705882353" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
                                                 <state key="normal" title="Blue">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="blueBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W4c-cR-gLV"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -91,6 +103,9 @@
                                                 <state key="normal" title="Font 1">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="font1Btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LLo-yf-6Tf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGb-ka-5AW">
                                                 <rect key="frame" x="172.5" y="0.0" width="162.5" height="56"/>
@@ -99,6 +114,9 @@
                                                 <state key="normal" title="Font 2">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="font2Btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vg6-Zd-Raw"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -112,6 +130,9 @@
                                                 <state key="normal" title="Font 3">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="font3Btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UKc-ft-60O"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Crv-eM-0e3">
                                                 <rect key="frame" x="172.5" y="0.0" width="162.5" height="56"/>
@@ -120,6 +141,9 @@
                                                 <state key="normal" title="Font 4">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="font4Btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ggi-1D-FRT"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -133,6 +157,9 @@
                                                 <state key="normal" title="Shadow">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="shadowBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t4l-N8-xMm"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -146,6 +173,9 @@
                                                 <state key="normal" title="Small">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="smallSizeBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zNt-7h-Toz"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJf-6v-Ft5">
                                                 <rect key="frame" x="115" y="0.0" width="105" height="56"/>
@@ -154,6 +184,9 @@
                                                 <state key="normal" title="Medium">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="mediumSizeBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DDZ-oG-KZi"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kqW-vi-lw5">
                                                 <rect key="frame" x="230" y="0.0" width="105" height="56"/>
@@ -162,6 +195,9 @@
                                                 <state key="normal" title="Large">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="largeSizeBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pHS-dc-H2s"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -186,6 +222,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="textField" destination="f7K-kB-kMb" id="7Jd-rB-saI"/>
+                        <outlet property="textLbl" destination="NeS-cm-XhT" id="KCX-GG-msK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -9,12 +9,66 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var textLbl: UILabel!
+    @IBOutlet weak var textField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
-
-
+    
+    @IBAction func enterTextField(_ sender: Any) {
+        
+    }
+    // Color Buttons
+    @IBAction func redBtn(_ sender: Any) {
+        
+    }
+    
+    @IBAction func greenBtn(_ sender: Any) {
+        
+    }
+    
+    @IBAction func blueBtn(_ sender: Any) {
+        
+    }
+    // Font Buttons
+    @IBAction func font1Btn(_ sender: Any) {
+        
+    }
+    
+    @IBAction func font2Btn(_ sender: Any) {
+        
+    }
+    
+    @IBAction func font3Btn(_ sender: Any) {
+        
+    }
+    
+    @IBAction func font4Btn(_ sender: Any) {
+        
+    }
+    // Shadow button
+    @IBAction func shadowBtn(_ sender: Any) {
+        
+    }
+    // Font Size Buttons
+    @IBAction func smallSizeBtn(_ sender: Any) {
+        
+    }
+    
+    @IBAction func mediumSizeBtn(_ sender: Any) {
+        
+    }
+    
+    @IBAction func largeSizeBtn(_ sender: Any) {
+        
+    }
+    
+    
+    
+    
+    
 }
 
