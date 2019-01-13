@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var textLbl: UILabel!
     @IBOutlet weak var textField: UITextField!
     
+    // used for font size
+    var fontSize: CGFloat = 40
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -44,17 +47,25 @@ class ViewController: UIViewController {
     // Font Buttons
     @IBAction func font1Btn(_ sender: Any) {
         
+        textLbl.font = UIFont(name: "Blacksword", size: fontSize)
+        
     }
     
     @IBAction func font2Btn(_ sender: Any) {
+        
+        textLbl.font = UIFont(name: "Megalomaniac Headliners", size: fontSize)
         
     }
     
     @IBAction func font3Btn(_ sender: Any) {
         
+        textLbl.font = UIFont(name: "premier-2019", size: fontSize)
+        
     }
     
     @IBAction func font4Btn(_ sender: Any) {
+        
+        textLbl.font = UIFont(name: "Purple Pen", size: fontSize)
         
     }
     // Shadow button
@@ -64,13 +75,21 @@ class ViewController: UIViewController {
     // Font Size Buttons
     @IBAction func smallSizeBtn(_ sender: Any) {
         
+        fontSize = 40
+        textLbl.font = textLbl.font.withSize(fontSize)
+        
     }
     
     @IBAction func mediumSizeBtn(_ sender: Any) {
         
+        fontSize = 60
+        textLbl.font = textLbl.font.withSize(fontSize)
     }
     
     @IBAction func largeSizeBtn(_ sender: Any) {
+        
+        fontSize = 80
+        textLbl.font = textLbl.font.withSize(fontSize)
         
     }
     

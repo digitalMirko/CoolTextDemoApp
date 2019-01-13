@@ -16,6 +16,7 @@
 		ACE77CFD21EBE906009381BB /* MegalomaniacHeadliners.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACE77CF921EBE906009381BB /* MegalomaniacHeadliners.ttf */; };
 		ACE77CFE21EBE906009381BB /* AwesomeSeason.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACE77CFA21EBE906009381BB /* AwesomeSeason.ttf */; };
 		ACE77CFF21EBE906009381BB /* PurplePen.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACE77CFB21EBE906009381BB /* PurplePen.ttf */; };
+		ACE77D0121EC054A009381BB /* Blacksword.otf in Resources */ = {isa = PBXBuildFile; fileRef = ACE77D0021EC054A009381BB /* Blacksword.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		ACE77CF921EBE906009381BB /* MegalomaniacHeadliners.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MegalomaniacHeadliners.ttf; sourceTree = "<group>"; };
 		ACE77CFA21EBE906009381BB /* AwesomeSeason.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AwesomeSeason.ttf; sourceTree = "<group>"; };
 		ACE77CFB21EBE906009381BB /* PurplePen.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PurplePen.ttf; sourceTree = "<group>"; };
+		ACE77D0021EC054A009381BB /* Blacksword.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Blacksword.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				ACE77CED21EBE74F009381BB /* Assets.xcassets */,
 				ACE77CEF21EBE74F009381BB /* LaunchScreen.storyboard */,
 				ACE77CF221EBE74F009381BB /* Info.plist */,
+				ACE77D0021EC054A009381BB /* Blacksword.otf */,
 				ACE77CFA21EBE906009381BB /* AwesomeSeason.ttf */,
 				ACE77CF921EBE906009381BB /* MegalomaniacHeadliners.ttf */,
 				ACE77CF821EBE906009381BB /* premier2019.otf */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACE77CF121EBE74F009381BB /* LaunchScreen.storyboard in Resources */,
+				ACE77D0121EC054A009381BB /* Blacksword.otf in Resources */,
 				ACE77CEE21EBE74F009381BB /* Assets.xcassets in Resources */,
 				ACE77CFC21EBE906009381BB /* premier2019.otf in Resources */,
 				ACE77CFF21EBE906009381BB /* PurplePen.ttf in Resources */,
