@@ -20,17 +20,25 @@ class ViewController: UIViewController {
     
     @IBAction func enterTextField(_ sender: Any) {
         
-    }
-    // Color Buttons
-    @IBAction func redBtn(_ sender: Any) {
+        textLbl.text = textField.text
+        // hard coding to dismiss keyboard
+        self.resignFirstResponder()
         
+    }
+    // Color Buttons, custom colors found on https://htmlcolorcodes.com
+    @IBAction func redBtn(_ sender: Any) {
+        // Custom red color
+        textLbl.textColor = UIColor(red: 228.0/255.0, green: 19.0/255.0, blue: 19.0/255.0, alpha: 1.0)
     }
     
     @IBAction func greenBtn(_ sender: Any) {
-        
+        // Custom green color
+        textLbl.textColor = UIColor(red: 54.0/255.0, green: 185.0/255.0, blue: 35.0/255.0, alpha: 1.0)
     }
     
     @IBAction func blueBtn(_ sender: Any) {
+        // Custom blue color
+        textLbl.textColor = UIColor(red: 19.0/255.0, green: 111.0/255.0, blue: 228.0/255.0, alpha: 1.0)
         
     }
     // Font Buttons
