@@ -12,6 +12,10 @@
 		ACE77CEC21EBE74D009381BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE77CEA21EBE74D009381BB /* Main.storyboard */; };
 		ACE77CEE21EBE74F009381BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE77CED21EBE74F009381BB /* Assets.xcassets */; };
 		ACE77CF121EBE74F009381BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE77CEF21EBE74F009381BB /* LaunchScreen.storyboard */; };
+		ACE77CFC21EBE906009381BB /* premier2019.otf in Resources */ = {isa = PBXBuildFile; fileRef = ACE77CF821EBE906009381BB /* premier2019.otf */; };
+		ACE77CFD21EBE906009381BB /* MegalomaniacHeadliners.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACE77CF921EBE906009381BB /* MegalomaniacHeadliners.ttf */; };
+		ACE77CFE21EBE906009381BB /* AwesomeSeason.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACE77CFA21EBE906009381BB /* AwesomeSeason.ttf */; };
+		ACE77CFF21EBE906009381BB /* PurplePen.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACE77CFB21EBE906009381BB /* PurplePen.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		ACE77CED21EBE74F009381BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACE77CF021EBE74F009381BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACE77CF221EBE74F009381BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE77CF821EBE906009381BB /* premier2019.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = premier2019.otf; sourceTree = "<group>"; };
+		ACE77CF921EBE906009381BB /* MegalomaniacHeadliners.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MegalomaniacHeadliners.ttf; sourceTree = "<group>"; };
+		ACE77CFA21EBE906009381BB /* AwesomeSeason.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AwesomeSeason.ttf; sourceTree = "<group>"; };
+		ACE77CFB21EBE906009381BB /* PurplePen.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PurplePen.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				ACE77CED21EBE74F009381BB /* Assets.xcassets */,
 				ACE77CEF21EBE74F009381BB /* LaunchScreen.storyboard */,
 				ACE77CF221EBE74F009381BB /* Info.plist */,
+				ACE77CFA21EBE906009381BB /* AwesomeSeason.ttf */,
+				ACE77CF921EBE906009381BB /* MegalomaniacHeadliners.ttf */,
+				ACE77CF821EBE906009381BB /* premier2019.otf */,
+				ACE77CFB21EBE906009381BB /* PurplePen.ttf */,
 			);
 			path = "Cool Text Demo";
 			sourceTree = "<group>";
@@ -124,7 +136,11 @@
 			files = (
 				ACE77CF121EBE74F009381BB /* LaunchScreen.storyboard in Resources */,
 				ACE77CEE21EBE74F009381BB /* Assets.xcassets in Resources */,
+				ACE77CFC21EBE906009381BB /* premier2019.otf in Resources */,
+				ACE77CFF21EBE906009381BB /* PurplePen.ttf in Resources */,
+				ACE77CFD21EBE906009381BB /* MegalomaniacHeadliners.ttf in Resources */,
 				ACE77CEC21EBE74D009381BB /* Main.storyboard in Resources */,
+				ACE77CFE21EBE906009381BB /* AwesomeSeason.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
