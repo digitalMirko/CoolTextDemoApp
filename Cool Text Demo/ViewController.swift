@@ -12,9 +12,15 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var textLbl: UILabel!
     @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var shadowBtnLbl: UIButton!
+    
+    
     
     // used for font size
     var fontSize: CGFloat = 40
+    
+    // used for shadow effect
+    var state = false  // no shadow, default state
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -70,6 +76,25 @@ class ViewController: UIViewController {
     }
     // Shadow button
     @IBAction func shadowBtn(_ sender: Any) {
+        
+        if state == false {
+            
+            state = true
+            textLbl.layer.shadowColor = UIColor.black.cgColor
+            textLbl.layer.shadowOffset = CGSize(width: 2, height: 2)
+            textLbl.layer.shadowRadius = 2
+            textLbl.layer.shadowOpacity = 0.25 // 25%of transperency
+            
+            shadowBtnLbl.setTitle("Remove Shadow", for: UIControl.State.normal)
+            
+        } else {
+            
+            state = false
+            textLbl.layer.shadowOpacity = 0
+
+            shadowBtnLbl.setTitle("Add Shadow", for: UIControl.State.normal)
+
+        }
         
     }
     // Font Size Buttons
